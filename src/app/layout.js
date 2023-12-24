@@ -11,7 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <h1 className=' text-center m-4 font-semibold text-xl'>
+          THE COMPOUND COMPONENT PATTERN
+        </h1>
+        {children}
+      </body>
     </html>
   )
 }
